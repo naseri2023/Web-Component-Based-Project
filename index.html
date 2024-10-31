@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<site-header header-title = "Welcome, This Is A Component Test :)">
+</site-header>
+<div class="course-container">
+    <site-course title = "Test 1" cover = "img/profile_img2.jpg">
+        <span slot="student">112200</span>
+        <span slot="teacher">Test Name</span>
+    </site-course>
+
+     <site-course title ="Test 2" cover = "img/profile_img2.jpg">
+        <span slot="student">22500</span>
+        <span slot="teacher">Test Name2</span>
+    </site-course>
+
+     <site-course title="Test 3" cover = "img/profile_img2.jpg">
+        <span slot="student" >551110</span>
+        <span slot="teacher">Test Name3</span>
+    </site-course>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
